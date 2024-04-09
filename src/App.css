@@ -1,0 +1,449 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+  #one{
+    height:13%
+  }
+  #one1{
+    width:80%
+  }
+  #two{
+    height:13%
+  }
+  #two1{
+    width:80%
+  }
+  #three{
+    height:13%
+  }
+  #three1{
+    width:80%
+  }
+  #four{
+    height:13%
+  }
+  #four1{
+    width:80%
+  }
+  #five{
+    height:13%
+  }
+  #five1{
+    width:80%
+  }
+  #six{
+    height:13%
+  }
+  #six1{
+    width:80%
+  }
+  #one2{
+    height:13%
+  }
+  #one22{
+    width:80%
+  }
+  #two2{
+    height:13%
+  }
+  #two22{
+    width:80%
+  }
+  #three2{
+    height:13%
+  }
+  #three22{
+    width:80%
+  }
+  #four2{
+    height:13%
+  }
+  #four22{
+    width:80%
+  }
+  #five2{
+    height:13%
+  }
+  #five22{
+    width:80%
+  }
+  #onep3{
+    margin-top: 10%;
+    width:100%;
+     height:80%
+  }
+  #twop3{
+   margin-left: 5%;
+    width: 30%;
+    height: 70%;
+  }
+  #threep3{
+   margin-top: 25%;
+   width: 65%;
+   height:50%;
+   font-size: 8px;
+   
+  }
+  #fourp3{
+    margin-top: 3%;
+  }
+  #onep5{
+    margin-top: 10%;
+    width:100%;
+     height:80%
+  }
+  #twop5{
+   margin-left: 5%;
+    width: 25%;
+    height: 70%;
+  }
+  #threep5{
+   margin-top: 15%;
+   width: 70%;
+   height:50%;
+   font-size: 7px;
+   
+  }
+  #fourp5{
+    margin-top: 1%;
+  }
+  #onep6{
+    height:100%
+  }
+  #five7{
+    width:98%;
+    margin-left: 1%;
+    margin-right: 1%;
+   
+    height:60%;
+   
+  }
+  #one7{
+    width:49%;
+    height:45%;
+    font-size:7.5px
+  }
+  #three7{
+    width:70%;
+    height:100%;
+    margin-left: 7%;
+    margin-top:30%;
+  }
+  #two7{
+    width:49%;
+    height:45%;
+    font-size:7.5px
+  }
+  #four7{
+    width:70%;
+    height:100%;
+    margin-left: 7%;
+    margin-top:30%;
+  }
+  #six7{
+    width:30%;
+    height:70%;
+  }
+  #seven7{
+    width:30%;
+    height:70%;
+  }
+  #eight7{
+    position:absolute;
+    top:-10%;
+   left:30%;
+   font-size:8px;
+  
+  }
+  #head27{
+    font-size:12px;
+  }
+  #head17{
+    font-size:17px;
+    margin-top: 40%;
+  }
+  #head16{
+    font-size:12px;
+  }
+  #head26{
+    font-size:12px;
+  }
+  #head15{
+    font-size:18px;
+  }
+  #head24{
+    font-size:10px;
+  }
+  #head14{
+    font-size:17px;
+    margin-top: 10%;
+  }
+  #head22{
+    font-size:9.5px;
+    margin-bottom: 4vw;
+  }
+  #head12{
+    font-size:17px;
+    
+  }
+  #head21{
+    font-size:9.5px;
+    margin-bottom: 4vw;
+  }
+  #head11{
+    font-size:17px;
+    
+  }
+}
+
+@media only screen and (min-width: 601px) {
+   #one{
+    height:5%
+   }
+   #one1{
+    width:50%
+  }
+  #two{
+    height:5%
+   }
+   #two1{
+    width:50%
+  }
+  #three{
+    height:5%
+   }
+   #three1{
+    width:50%
+  }
+  #four{
+    height:5%
+   }
+   #four1{
+    width:50%
+  }
+  #five{
+    height:5%
+   }
+   #five1{
+    width:50%
+  }
+  #six{
+    height:5%
+   }
+   #six1{
+    width:50%
+  }
+  #one2{
+    height:5%;
+    
+   }
+   #one22{
+    width:50%;
+   
+
+  }
+  #two2{
+    height:5%
+   }
+   #two22{
+    width:50%
+  }
+  #three2{
+    height:5%
+   }
+   #three22{
+    width:50%
+  }
+  #four2{
+    height:5%
+   }
+   #four22{
+    width:50%
+  }
+  #five2{
+    height:5%
+   }
+   #five22{
+    width:50%
+  }
+  #onep3{
+    
+    width:100%;
+     height:30%
+  }
+  #twop3{
+   margin-left: 10%;
+    width: 30%;
+    height: 100%;
+  }
+  #threep3{
+   margin-top: 15%;
+   margin-left: 5%;
+   width: 55%;
+   height:100%;
+  
+   
+  }
+  #fourp3{
+    margin-top: 7%;
+  }
+  #onep5{
+    
+    width:100%;
+     height:40%
+  }
+  #twop5{
+   margin-left: 10%;
+    width: 30%;
+    height: 100%;
+  }
+  #threep5{
+   margin-top: 15%;
+   margin-left: 5%;
+   width: 55%;
+   height:100%;
+  
+   
+  }
+  #head25{
+    font-size:13px;
+  }
+  #head35{
+    font-size:13px;
+  }
+  #head45{
+    font-size:13px;
+  }
+  #head55{
+    font-size:13px;
+  }
+  #head65{
+    font-size:13px;
+  }
+  #fourp5{
+    margin-top: 2.5%;
+  }
+  #onep6{
+    height:40%
+  }
+  #five7{
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+    height:40%;
+   
+  }
+  #one7{
+    width:49%;
+    height:55%;
+   
+  }
+  #three7{
+    width:60%;
+    height:100%;
+    margin-left: 2%;
+    margin-top:30%;
+    font-size: 15px;
+  }
+  #two7{
+    width:49%;
+    height:55%;
+    
+  }
+  #four7{
+    width:60%;
+    height:100%;
+    margin-left: 2%;
+    margin-top:30%;
+    font-size: 15px;
+  }
+  #six7{
+    width:40%;
+    height:60%;
+  }
+  #seven7{
+    width:40%;
+    height:60%;
+  }
+  #eight7{
+    position:absolute;
+    top:-4%;
+   left:40%;
+   font-size:15px;
+  
+  }
+  #head27{
+   font-size:18px;
+  }
+  #head17{
+   font-size:30px;
+    margin-top: 10%;
+  }
+  #head16{
+    font-size:30px;
+  }
+  #head26{
+    font-size:30px;
+  }
+  #head15{
+    font-size:32px;
+  }
+  #head24{
+    font-size:18px;
+   }
+   #head14{
+    font-size:30px;
+    
+   }
+   #head22{
+    font-size:18px;
+   }
+   #head12{
+    font-size:30px;
+    
+   }
+   #head21{
+    font-size:18px;
+   }
+   #head11{
+    font-size:30px;
+    
+   }
+}
