@@ -220,7 +220,7 @@
   }
   #head12{
     font-size:17px;
-    
+    margin-top: 5vw;
   }
   #head21{
     font-size:9.5px;
@@ -228,8 +228,28 @@
   }
   #head11{
     font-size:17px;
-    
+    margin-top: 5vw;
   }
+  #head32{
+    font-size:10px;
+  }
+  #head42{
+    font-size:10px;
+  }
+  #head52{
+    font-size:10px;
+  }
+  #head62{
+    font-size:10px;
+  }
+  #head72{
+    font-size:10px;
+  }
+ 
+  #arr{
+    height: 400%;
+   width:3%;
+   }
 }
 
 @media only screen and (min-width: 601px) {
@@ -446,4 +466,8 @@
     font-size:30px;
     
    }
+   #arr{
+   height: 500%;
+  width:3%;
+  }
 }

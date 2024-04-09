@@ -3,6 +3,7 @@ import page41 from './page41.jpeg';
 import page42 from './page42.jpeg';
 import page43 from './page43.jpeg';
 import page44 from './page44.jpeg';
+import arrow from './arrow.jpg';
 import { Route, Routes } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 export default function Page4() {
@@ -18,11 +19,22 @@ export default function Page4() {
  const nextpage=()=>{
    nextpa("/page5");
  }
+ const back=()=>{
+  nextpa(-1);
+}
   return (
     <div style={{width:'100vw',height:'100vw'}}>
-    <div  class="bg-gray-300 rounded-lg" style={{width:'80%',marginLeft:'10%',marginRight:'10%',height:'4px'}}>
-    <div  class="rounded-lg" style={{width:'60%',backgroundColor:  '#5FB5A3',height:'4px',marginTop:'2%'}}></div>
+     <div class="flex justify-between items-center"   style={{ width: '80%', marginLeft: '10%', marginRight: '10%', height: '4px',marginTop:'1%', position: 'relative' }}>
+      
+     <div id="arr" onClick={back}  style={{backgroundImage:`url(${arrow})`,backgroundSize:'100% 100%',backgroundColor:'white',cursor:'pointer'}}>
+    
     </div>
+  <div   style={{ width: '95%', height: '100%' }}>
+    <div className="bg-gray-300 rounded-lg" style={{ width: '100%', height: '100%', position: 'relative' }}>
+      <div className="rounded-lg" style={{ width: '60%', backgroundColor: '#5FB5A3', height: '100%', position: 'relative' }}></div>
+    </div>
+  </div>
+</div>
         <p class="font-bold flex justify-center  text-center" id="head14" style={{}}>What is your maths comfort level</p>
         <p class="flex justify-center text-gray-600 text-center" id="head24" style={{marginTop:'1vw'}}>Choose the highest level you feel confident in - you can always adjust later. </p>
         <div class="flex justify-between" style={{width:'80%',marginLeft:'10%',marginRight:'10%',marginTop:'10vw',height:'20%'}}>
